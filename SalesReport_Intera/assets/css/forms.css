@@ -1,0 +1,115 @@
+/* 
+Glava dokumenta
+Ime datoteke: forms.css
+Namen: Stili za obrazce, vključno z nalaganjem datotek in gumbi za spletno stran.
+Avtor: Rene Kolednik
+GitHub: SaB11F
+ */
+
+.upload-section {
+    margin-bottom: 30px; /* Razmik pred morebitnim drugim vsebinam */
+}
+
+.upload-section form {
+    display: flex;
+    flex-direction: column; /* Form v stolpec, da je gumb pod kontejnerji */
+    align-items: center; /* Poravnava na sredino */
+}
+
+.file-container-wrapper {
+    display: flex;
+    flex-direction: row; /* Kontejnerji v vrstici */
+    justify-content: center; /* Poravnava na sredino */
+    gap: 20px; /* Razmik med kontejnerji */
+    flex-wrap: wrap; /* Če je premalo prostora, se kontejnerji zavijejo v novo vrstico */
+}
+
+.file-container {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    transition: transform 0.2s;
+}
+
+.file-container:hover {
+    transform: translateY(-5px);
+}
+
+.file-container label {
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.file-container input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #3b82f6;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #1e3a8a;
+    text-align: center;
+}
+
+.button-container {
+    text-align: center; /* Poravnava gumba na sredino */
+    margin-top: 30px; /* Razmik od kontejnerjev */
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #3b82f6;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #2563eb;
+    transform: translateY(-2px);
+}
+
+.upload-message {
+    color: #ec4899;
+    margin: 15px 0;
+    padding: 12px;
+    background-color: rgba(236, 72, 153, 0.1);
+    border-radius: 6px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.filter-section {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.filter-section label {
+    font-weight: 500;
+    margin-right: 15px;
+    color: #ffffff;
+}
+
+.filter-section select {
+    padding: 10px;
+    border: 1px solid #3b82f6;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #1e3a8a;
+    font-weight: 500;
+}

@@ -1,0 +1,7 @@
+id;first_name;last_name;account_id;date_of_birth
+1;Mirko;Murko;1;1970-01-01 00:00:00
+2;Janez;Novak;1;1985-11-05 00:00:00
+3;Peter;Klepec;2;1988-02-07 00:00:00
+4;Evgenij;Jazbec;2;1990-01-08 00:00:00
+5;Marko;Mirko;3;1965-03-05 00:00:00
+6;Janez;Novak;3;1991-02-10 00:00:00

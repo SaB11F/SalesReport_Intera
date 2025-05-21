@@ -1,0 +1,23 @@
+/* 
+Glava dokumenta
+Ime datoteke: base.css
+Namen: Osnovni slogi in tipografija za spletno stran, ki določajo privzete nastavitve za celoten projekt.
+Avtor: Rene Kolednik
+GitHub: SaB11F
+
+Osnovni slogi in tipografija */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    background-color: #1e3a8a;
+    line-height: 1.6;
+    overflow-x: hidden;
+}

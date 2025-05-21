@@ -1,0 +1,50 @@
+/* 
+Glava dokumenta
+Ime datoteke: layout.css
+Namen: Splošna postavitev na spletni strani, vključno z glavo, vsebino in osnovnimi slogi.
+Avtor: Rene Kolednik
+GitHub: SaB11F
+ */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+header {
+    background-color: #1e3a8a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, #3b82f6 0%, #1e3a8a 70%);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+h2 {
+    color: #3b82f6;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
